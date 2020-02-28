@@ -119,7 +119,7 @@ void rflink_task () {
 	    motor4 = 256 * data[18] + data[19];
             voltage= 100+data[20] ;
 	}
-	vTaskDelayUntil(&xLoopStart, 10);
+	vTaskDelayUntil(&xLoopStart, 5);
     }
 }
 

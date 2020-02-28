@@ -59,7 +59,7 @@ void app_main(void)
 		height, heading,heightprog,headingprog,voltage/10,voltage%10,fccnt,
 		mpitch/100,abs(mpitch%100)/10,mroll/100,abs(mroll%100)/10);
         ssd1305_text(disp_str);
-	vTaskDelayUntil(&xLoopStart, 100);
+	vTaskDelayUntil(&xLoopStart, 50);
     }
 
 }
