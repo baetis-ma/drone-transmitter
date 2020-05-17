@@ -1,6 +1,6 @@
 //spi dependancies
-#define NRF24L01_CE_GPIO    16
-#define NRF24L01_CE_MASK    (1ULL<<NRF24L01_CE_GPIO)
+//#define NRF24L01_CE_GPIO    16
+//#define NRF24L01_CE_MASK    (1ULL<<NRF24L01_CE_GPIO)
 
 int nrf24_transmit_pkt ( uint8_t *data, int length) {
     //setup nrf24l01 transmitter
